@@ -107,8 +107,8 @@ cd Desktop
 
 cd /root/Desktop
 
-wget https://github.com/mazbron/x/raw/master/GP/newww/gp.ascr
-wget https://github.com/mazbron/x/raw/master/GP/newww/gpclick.ascr
+wget https://github.com/anangpurnama/anang/raw/main/gp.ascr
+wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
 
@@ -139,7 +139,7 @@ cd /etc
 mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
-wget 
+wget https://github.com/anangpurnama/anang/raw/main/hosts
 echo "root:Ue2@J1C5fLwc+Rp%" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
