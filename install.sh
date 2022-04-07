@@ -140,7 +140,7 @@ mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
 wget https://github.com/anangpurnama/anang/raw/main/hosts
-echo "root:Ue2@J1C5fLwc+Rp%" | sudo chpasswd
+echo "root:KiZeg4me2@fa" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
 sudo systemctl enable xrdp
