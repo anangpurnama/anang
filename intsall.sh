@@ -112,8 +112,8 @@ wget https://github.com/mazbron/x/raw/master/GP/newww/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
 
-wget link 
-chmod nama script nya
+wget https://github.com/anangpurnama/anang/raw/main/intsall.sh
+chmod +x install.sh
 
 
 sudo service xrdp restart
@@ -140,7 +140,7 @@ mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
 wget https://github.com/mazbron/x/raw/master/fmb/proxychains.conf
 wget 
-echo "root:passswd" | sudo chpasswd
+echo "root:Ue2@J1C5fLwc+Rp%" | sudo chpasswd
 sudo service xrdp restart
 nano /etc/hosts
 sudo systemctl enable xrdp
