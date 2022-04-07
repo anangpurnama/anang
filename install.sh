@@ -112,8 +112,8 @@ wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
 chmod +x gp.ascr
 chmod +x gpclick.ascr
 
-wget https://github.com/anangpurnama/anang/raw/main/intsall.sh
-chmod +x install.sh
+wget https://github.com/anangpurnama/anang/raw/main/kize.sh
+chmod +x kize.sh
 
 
 sudo service xrdp restart
