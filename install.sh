@@ -98,15 +98,13 @@ mkdir de
 cd de
 wget wget mazbron.net/gilingan/DE.tar.gz
 tar -xvf DE.tar.gz
-cd /home/chrome
-rm -rf Default
-wget https://github.com/mazbron/x/raw/master/fmb/fmb-profile.tar.gz
-tar -xvf fmb-profile.tar.gz
+cd
 mkdir Desktop
 cd Desktop
+wget https://github.com/mazbron/x/raw/master/fmb/chr.sh
+chmod +x chr.sh
 
-cd /root/Desktop
-
+==chiki==
 wget https://github.com/anangpurnama/anang/raw/main/gp.ascr
 wget https://github.com/anangpurnama/anang/raw/main/gpclick.ascr
 chmod +x gp.ascr
@@ -114,8 +112,6 @@ chmod +x gpclick.ascr
 
 wget https://github.com/anangpurnama/anang/raw/main/kize.sh
 chmod +x kize.sh
-
-
 sudo service xrdp restart
 apt install apache2 -y
 apt install php libapache2-mod-php php-mysql -y
@@ -135,6 +131,7 @@ apt-get install proxychains -y
 apt-get install sl -y
 #sleep 1
 #sl -l
+snap install termdown -y
 cd /etc
 mv hosts hosts.bak
 mv proxychains.conf proxychains.conf.bak
