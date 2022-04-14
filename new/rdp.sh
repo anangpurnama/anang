@@ -43,7 +43,8 @@ rm -rf .mozilla
 wget mazbron.net/ff19ipflood.tar.gz
 tar -xvf ff19ipflood.tar.gz
  
-
+sleep 1
+sudo apt-get install actiona -y
 sleep 1
 echo install chrome
 sleep 1
